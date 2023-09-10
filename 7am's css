@@ -1,0 +1,183 @@
+#gameMessage {
+  text-shadow: 0 0 5px black;
+}
+
+.weapIcon {
+  filter: drop-shadow(0 0 2px black)drop-shadow(0 0 2px black)drop-shadow(0 0 2px black)
+}
+
+.weapIcon[style="opacity: 0.7; margin-right: 25px;"],
+.weapIcon[style="opacity: 0.7;"],
+.weapIcon[style="opacity:0.7;margin-right:25px"] {
+  position    : fixed;
+  left        : 46%;
+  bottom      : -10%;
+  transition  : .3s;
+  margin-right: 0px !important;
+}
+
+.weapIcon[style="opacity: 1;"],
+.weapIcon[style="opacity:1"],
+.weapIcon[style="opacity: 1; margin-right: 25px;"] {
+  bottom      : 2%;
+  position    : fixed;
+  left        : 50%;
+  transform   : translateX(-50%);
+  transition  : .3s;
+  margin-right: 0px !important;
+}
+
+.weapKey {
+  display: none;
+}
+
+#ammoMax,
+#maxHP,
+#ammoIcon,
+#challIcon {
+  display: none;
+}
+
+#ammoDisplay {
+  background-image: url(https://media.discordapp.net/attachments/759360337706483712/794850680380194846/1609577495989.PNG);
+  position        : fixed;
+  background-color: transparent;
+  right           : 49.5%;
+  bottom          : 48%;
+  padding         : 0px !important;
+  height          : 5px;
+}
+
+#ammoVal {
+  transform  : translateY(120px) translateX(180px);
+  font-size  : 50px;
+  text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
+}
+
+#reloadMsg {
+  background : transparent;
+  bottom     : 41%;
+  color      : red;
+  font-size  : 20px;
+  text-shadow: 0 0 2px black;
+}
+
+.healthBarSeg {
+  background  : transparent;
+  margin-right: -1px;
+  width       : 50px;
+}
+
+.hpBSeg {
+  box-shadow      : none;
+  border-radius   : 0px;
+  height          : 100%;
+  background-color: white !important;
+  box-shadow      : 0 0 4px black;
+}
+
+#healthBar {
+  height       : 10px;
+  display      : block;
+  border-radius: 0px;
+  position     : fixed;
+  left         : 50%;
+  bottom       : 15px;
+  transform    : translateX(-50%);
+}
+
+#igXPBar {
+  display: none !important;
+}
+
+#hudClassImg {
+  content: url(https://media.discordapp.net/attachments/714628674091089924/836745633952038932/slug-vector-id1020707028.png);
+}
+
+#hudClassIcon {
+  display: none;
+}
+
+#healthValueHolder {
+  background: transparent;
+  position  : fixed;
+  left      : 39%;
+  top       : 62%;
+}
+
+#healthValue {
+  font-size  : 50px;
+  text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
+}
+
+#timerIcon {
+  display: none;
+}
+
+#timerDisplay {
+  background: transparent;
+  top       : 75%;
+  left      : 46.5%;
+  position  : fixed;
+}
+
+#timerVal {
+  font-size  : 40px;
+  text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
+}
+
+
+#chatHolder[style="bottom: 148px;"] {
+  bottom    : 20px !important;
+  transition: .3s;
+}
+
+#leaderContainer {
+  border-top: dotted 5px white;
+}
+
+#leaderDisplay:before {
+  content    : "Leader Board";
+  color      : #d592ff;
+  text-shadow: 0 0 4px #9341ffec;
+}
+
+.menuSocialB {
+  display: none;
+}
+
+.menBtnIcn {
+  display: none !important;
+}
+
+div#menuBtnProfile,
+div#menuBtnShop {
+  font-size: 0 !important;
+}
+
+div#menuBtnProfile:after {
+  font-size: 25px !important;
+  content  : "Profile"
+}
+
+div#menuBtnShop:after {
+  font-size: 25px !important;
+  content  : "Shop"
+}
+
+.menuItem,
+#subLogoButtons>.button {
+  border-color: transparent !important;
+}
+
+div#rankedSoonTm {
+  display: none !important;
+}
+
+#uiBase.onMenu #chatHolder {
+  left      : 20px;
+  transition: .1s;
+}
+
+#reloadMsg {
+  border: unset !important;
